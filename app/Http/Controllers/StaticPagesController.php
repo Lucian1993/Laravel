@@ -86,12 +86,10 @@ class StaticPagesController extends Controller
     }
 
     public function home(){
-	var_dump(1111);
-        return view('static_pages/home');
+        return view('static_pages.home');
     }
     
     public function help(){
-	var_dump(6666);
         return view('static_pages/help');
     }
 
