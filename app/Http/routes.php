@@ -22,4 +22,5 @@ Route::get('/about','StaticPagesController@about')->name('about');
 
 
 get('signup', 'UsersController@create')->name('signup');
-
+get('store', 'UsersController@store')->name('store');
+resource('users' , 'UsersController');
